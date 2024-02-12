@@ -1,47 +1,80 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Top Five Most Beautiful Flowers</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+      }
+      .header {
+        grid-column: 1 / -1;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .content {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .content h2 {
+        margin-top: 0;
+      }
+      .content p {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
 
-  <header>
-    <h1>Top five most beautiful Flowers</h1>
-    <p>Visual beauty may please the eye of many people and might be seen differently according to opinions of others. When it comes to beauty many think of flowers, since they are often described as a sign of beauty. Here are top five most beautiful flowers according to science.</p>
-  </header>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Top five most beautiful Flowers</h1>
+      </div>
 
-  <main>
-    <section>
-      <h2>Top five most beautiful flowers</h2>
-      <ol>
-        <li>Lilac</li>
-        <li>Iris</li>
-        <li>Bleeding Heart</li>
-        <li>Water Lily</li>
-        <li>Marigold</li>
-      </ol>
-    </section>
+      <div class="content">
+        <h2>Top five most beautiful flowers</h2>
+        <ol>
+          <li>Lilac</li>
+          <li>Iris</li>
+          <li>Bleeding Heart</li>
+          <li>Water Lily</li>
+          <li>Marigold</li>
+        </ol>
+      </div>
 
-    <section>
-      <article>
+      <div class="content">
         <h3>Lilac</h3>
         <p>The Lilac is grown usually on rocky hills and it is native to the Balkan Peninsula. The flower comes in various different colors and it is seen as a symbol of purity and innocence. Blooming in spring, lilacs have been used as medicine for ages including curing skin conditions and fever.</p>
-       
-      </article>
+      </div>
 
-      <article>
+      <div class="content">
         <h3>Iris</h3>
         <p>There are about 280 species of Irises. It is believed to be of Spanish origin, and many of the species are native to Europe and Asia. The Iris represents elegance, wisdom, and royalty. In Greek mythology, there's a Goddess by the name of 'Iris' meaning rainbow in Greek. Because of the flower's beauty, many artists such as Vincent Van Gogh were fascinated and would make paintings of it.</p>
-       
-      </article>
+      </div>
 
-      <!-- Similarly for Bleeding Heart, Water Lily, and Marigold -->
-    </section>
-  </main>
+      <div class="content">
+        <h3>Bleeding Heart</h3>
+        <p>The Bleeding Heart flower is native to Northern China, Japan, Siberia, North America, and Korea. By the looks of it, the name is derived from the bleeding-looking petals. The flower is poisonous since it contains isoquinoline alkaloids. There's a legend about the bleeding heart reminding of tragic romance and love.</p>
+      </div>
 
+      <div class="content">
+        <h3>Water Lily</h3>
+        <p>Water Lily is native to Europe, North Africa, and Asia and it has significance in Hinduism and Buddhism, being a spiritual symbol. The flowers live up to 15 to 20 years. Many parts of Water Lily can be consumed since they are edible.</p>
+      </div>
+
+      <div class="content">
+        <h3>Marigold</h3>
+        <p>The Marigold is known to be native to subtropical America and has been cultivated for over 2,000 years. It is the symbol of purity, divinity but also the connection of life and death. Deers and rabbits usually avoid marigolds because of their odor. The marigold has been used as a remedy for wound treatment.</p>
+      </div>
+    </div>
+  </body>
+</html>
   <footer>
     <p>&copy; 2024 LilaFej</p>
   </footer>
