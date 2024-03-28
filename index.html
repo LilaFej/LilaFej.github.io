@@ -1,46 +1,15 @@
 <html lang="en">
   <head>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      .container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        padding: 20px;
-      }
-      .header {
-        grid-column: 1 / -1;
-        text-align: center;
-        margin-bottom: 20px;
-      }
-      .menu {
-        background-color: #f9f9f9;
-        padding: 20px;
-        border-radius: 10px;
-      }
-
-      .main {
-        background-color: #f9f9f9;
-        padding: 20px;
-        border-radius: 10px;
-      }
-
-      .right {
-        background-color: #f9f9f9;
-        padding: 20px;
-        border-radius: 10px;
-      }
-      
-      .content h2 {
-        margin-top: 0;
-      }
-      .content p {
-        margin-bottom: 0;
-      }
+   .grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: lightpink;
+    padding: 10px;
     </style>
   </head>
 
