@@ -12,7 +12,7 @@
 
     .wrapper {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       min-height: 100vh;
     }
 
@@ -25,12 +25,14 @@
     }
 
     header {
-      height: 100px;
+      flex: 0 1 100%;
+      order: 1;
     }
 
     nav {
-      height: 120px;
-      order: -1; 
+      height: 100%;
+      flex: 0 1 auto;
+      order: -1;
     }
 
     nav ul {
@@ -56,23 +58,24 @@
     }
 
     aside {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      flex: 0 1 auto;
+      order: 2;
     }
 
     footer {
       margin-top: auto;
       text-align: center;
+      order: 3;
+    }
+
+    aside img {
+      max-width: 100%;
+      height: auto;
     }
   </style>
 </head>
 <body>
   <div class="wrapper">
-    <header>
-      <h1>Top Five Most Beautiful Flowers</h1>
-    </header>
-
     <nav>
       <ul>
         <li>Lilac</li>
@@ -83,7 +86,7 @@
       </ul>
     </nav>
 
-    <article class="main"> 
+    <div class="main"> 
       <div>
         <h3>Lilac</h3>
         <p>The Lilac is grown usually on rocky hills and it is native to the Balkan Peninsula. <br>
@@ -117,7 +120,7 @@
         It is the symbol of purity, divinity but also the connection of life and death. Deers and rabbits usually avoid marigolds because of their odor.<br>
         The marigold has been used as a remedy for wound treatment.</p>
       </div>
-    </article>
+    </div>
 
     <aside>
       <a href="https://th.bing.com/th/id/OIP.WN_hzDD8i8VYMuMHRNr3qQHaKU?rs=1&pid=ImgDetMain">
@@ -131,3 +134,4 @@
   </div>
 </body>
 </html>
+
