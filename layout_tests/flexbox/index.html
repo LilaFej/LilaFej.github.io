@@ -1,154 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Top Five Most Beautiful Flowers</title>
-  <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top 5 most beautiful flowers</title>
+<style>
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
     }
-
-    .wrapper {
-      display: flex;
-      flex-direction: row;
-      min-height: 100vh;
-      flex-wrap: wrap;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
     }
-
-    header, nav, .main, aside, footer {
-      padding: 10px;
-      text-align: center;
-      background: lightgreen;
-      border-radius: 5px;
-      margin: 10px;
+    .flower {
+        width: 70%;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
     }
-
-    header {
-      flex: 1 1 100%;
-      order: 1;
-    }
-
-    nav {
-      height: 100%;
-      flex: 0 1 auto;
-      order: -1;
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    nav ul li {
-      display: inline-block;
-      margin: 0 10px;
-      font-size: 20px;
-    }
-
-    .main {
-      flex: 2 1 60%;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .main > * {
-      margin-bottom: 20px;
-    }
-
-    aside {
-      flex: 1 1 20%;
-      order: 3;
-    }
-
-    footer {
-      flex: 1 1 100%;
-      margin-top: auto;
-      text-align: center;
-      order: 4;
-    }
-
-    aside img {
-      max-width: 100%;
-      height: auto;
-    }
-
     h1 {
-      font-size: 28px;
+        text-align: center;
     }
-
-    h3 {
-      font-size: 24px;
-    }
-
-    p {
-      font-size: 18px;
-    }
-  </style>
+</style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <h1>Top Five Most Beautiful Flowers</h1>
-    </header>
-
-    <nav>
-      <ul>
-        <li>Lilac</li>
-        <li>Iris</li>
-        <li>Bleeding Heart</li>
-        <li>Water Lily</li>
-        <li>Marigold</li>
-      </ul>
-    </nav>
-
-    <div class="main"> 
-      <div>
-        <h3>Lilac</h3>
-        <p>The Lilac is grown usually on rocky hills and it is native to the Balkan Peninsula. <br>
-        The flower comes in various different colors and it is seen as a symbol of purity and innocence.<br>
+<div class="container">
+    <h1>Top 5 most beautiful flowers</h1>
+    <div class="flower">
+        <h2>Lilac</h2>
+        <p>The Lilac is grown usually on rocky hills and it is native to the Balkan Peninsula.
+        The flower comes in various different colors and it is seen as a symbol of purity and innocence.
         Blooming in spring, lilacs have been used as medicine for ages including curing skin conditions and fever.</p>
-      </div>
-
-      <div>
-        <h3>Iris</h3>
-        <p>There are about 280 species of Irises. It is believed to be of Spanish origin, and many of the species are native to Europe and Asia.<br>
-        The Iris represents elegance, wisdom, and royalty. In Greek mythology, there's a Goddess by the name of 'Iris' meaning rainbow in Greek.<br>
-        Because of the flower's beauty, many artists such as Vincent Van Gogh were fascinated and would make paintings of it.</p>
-      </div>
-
-      <div>
-        <h3>Bleeding Heart</h3>
-        <p>The Bleeding Heart flower is native to Northern China, Japan, Siberia, North America, and Korea.<br>
-        By the looks of it, the name is derived from the bleeding-looking petals. The flower is poisonous since it contains isoquinoline alkaloids.<br>
-        There's a legend about the bleeding heart reminding of tragic romance and love.</p>
-      </div>
-
-      <div>
-        <h3>Water Lily</h3>
-        <p>Water Lily is native to Europe, North Africa, and Asia and it has significance in Hinduism and Buddhism, being a spiritual symbol.<br>
-        The flowers live up to 15 to 20 years. Many parts of Water Lily can be consumed since they are edible.</p>
-      </div>
-
-      <div>
-        <h3>Marigold</h3>
-        <p>The Marigold is known to be native to subtropical America and has been cultivated for over 2,000 years.<br>
-        It is the symbol of purity, divinity but also the connection of life and death. Deers and rabbits usually avoid marigolds because of their odor.<br>
-        The marigold has been used as a remedy for wound treatment.</p>
-      </div>
     </div>
-
-    <aside>
-      <a href="https://th.bing.com/th/id/OIP.WN_hzDD8i8VYMuMHRNr3qQHaKU?rs=1&pid=ImgDetMain">
-        <img src="https://th.bing.com/th/id/OIP.WN_hzDD8i8VYMuMHRNr3qQHaKU?rs=1&pid=ImgDetMain" alt="Lilac">
-      </a>
-    </aside>
-
-    <footer>
-      <p>&copy; 2024 LilaFej</p>
-    </footer>
-  </div>
+    <div class="flower">
+        <h2>Iris</h2>
+        <p>There are about 280 species of Irises. It is believed to be of Spanish origin, and many of the species are native to Europe and Asia.
+        The Iris represents elegance, wisdom, and royalty. In Greek mythology, there's a Goddess by the name of 'Iris' meaning rainbow in Greek.
+        Because of the flower's beauty, many artists such as Vincent Van Gogh were fascinated and would make paintings of it.</p>
+    </div>
+    <div class="flower">
+        <h2>Bleeding Heart</h2>
+        <p>The Bleeding Heart flower is native to Northern China, Japan, Siberia, North America, and Korea.
+        By the looks of it, the name is derived from the bleeding-looking petals. The flower is poisonous since it contains isoquinoline alkaloids.
+        There's a legend about the bleeding heart reminding of tragic romance and love.</p>
+    </div>
+    <div class="flower">
+        <h2>Water Lily</h2>
+        <p>Water Lily is native to Europe, North Africa, and Asia and it has significance in Hinduism and Buddhism, being a spiritual symbol.
+        The flowers live up to 15 to 20 years. Many parts of Water Lily can be consumed since they are edible.</p>
+    </div>
+    <div class="flower">
+        <h2>Marigold</h2>
+        <p>The Marigold is known to be native to subtropical America and has been cultivated for over 2,000 years.
+        It is the symbol of purity, divinity but also the connection of life and death. Deers and rabbits usually avoid marigolds because of their odor.
+        The marigold has been used as a remedy for wound treatment.</p>
+    </div>
+</div>
 </body>
 </html>
+
+      
