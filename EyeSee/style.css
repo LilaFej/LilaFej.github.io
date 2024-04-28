@@ -6,7 +6,6 @@
 img{
    width: 125px;
 }
-
 .navbar{
    display: flex;
    padding: 20px;
@@ -64,4 +63,9 @@ p{
    padding: 8px 30px;
    margin: 30px 0;
    border-radius: 30px;
+}
+.background-image{
+   flex: 1; 
+   background-size: cover; 
+   background-position: center;
 }
