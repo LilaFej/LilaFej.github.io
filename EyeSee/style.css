@@ -48,7 +48,9 @@ p{
    min-width: 300px;
    background-image: url('/EyeSee/Images-Web/background.jpeg');
    background-size: cover; 
-   background-position: center; /
+   background-position: center; 
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
    padding: 50px;
 
 }
