@@ -6,3 +6,9 @@
 img{
    width: 125px;
 }
+
+.navbar{
+   display: flex;
+   padding: 20px;
+   align-items: center;
+}
