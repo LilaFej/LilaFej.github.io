@@ -40,9 +40,7 @@ body {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   background-image: url('/EyeSee/Images-Web/background1.jpg');
-   background-size: cover;
-   background-position: center;
+   background-color: #a0d2eb;
 }
 .row{
    display: flex;
