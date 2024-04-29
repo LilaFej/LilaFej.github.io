@@ -3,7 +3,7 @@
    padding: 0;
    box-sizing: border-box;
 }
-.logo{
+.logo img{
    width: 125px;
 }
 .navbar{
@@ -38,6 +38,7 @@ p{
    background-image: url('/EyeSee/Images-Web/background1.jpg'); 
    background-size: cover; 
    background-position: center;
+   opacity: 0.8;
 }
 .row{
    display: flex;
@@ -49,11 +50,6 @@ p{
    flex-basis: 50%;
    min-width: 300px;
 }
-.col-2 img{
-   max-width: 100%;
-   height: auto;
-   opacity: 0.8;
-}
 .col-2 h1{
    font-size: 50px;
    line-height: 60px;
@@ -61,7 +57,7 @@ p{
 }
 .button{
    display: inline-block;
-   background: darkblue;
+   background: lightskyblue;
    color: #fff;
    padding: 8px 30px;
    margin: 30px 0;
