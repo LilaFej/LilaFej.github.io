@@ -6,6 +6,9 @@
 .logo img{
    width: 125px;
 }
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .navbar{
    display: flex;
    padding: 20px;
