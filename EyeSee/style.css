@@ -45,6 +45,8 @@ nav ul li{
       top: 70px;
       background: #113680;
       width: 100%;
+      overflow: hidden;
+      transition: max-height 0.7s;
    }
    nav ul li{
       display: block;
