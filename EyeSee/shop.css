@@ -4,7 +4,7 @@
     box-sizing: border-box;
  }
  .header{
-    background: radial-gradient();
+    background: #0066b2;
  }
  .logo img{
     width: 125px;
@@ -87,10 +87,9 @@
     line-height: 60px;
     margin: 25px 0;
  }
- /*---------images--------*/
+ /*---------shop--------*/
  .small-container{
     max-width: 1080px;
-    margin: 70px 0;
     padding-left: 25px;
     padding-right: 25px;
     align-items: center;
