@@ -163,10 +163,10 @@
        flex-basis: calc(33.33% - 20px); 
     }
  }
- page-number{
+ page-button{
     margin: 0 auto 80px;
  }
- page-number span{
+ page-button span{
     display: inline-block;
     border: 1px solid #113680;
     width: 40px;
@@ -175,6 +175,6 @@
     text-align: center;
     cursor: pointer;
  }
- page-number span:hover{
+ page-button span:hover{
     background: #113680;
  }
