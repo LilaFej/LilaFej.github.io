@@ -140,7 +140,12 @@ footer h3{
 ul{
    list-style-type: none;
 }
-
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+   flex-basis: 100%;
+   margin-bottom: 30px; 
+}
 @media only screen and (max-width: 600px){
    .row{
       text-align: center;
@@ -148,5 +153,18 @@ ul{
    .col-2, .col-3{
       flex-basis: 100%;
    }
+}
+@media only screen and (min-width: 768px) {
+   .footer {
+      display: flex;
+      justify-content: space-around; 
+      align-items: flex-start; /
+      flex-wrap: wrap; 
+   }
 
+   .footer-col-1,
+   .footer-col-2,
+   .footer-col-3 {
+      flex-basis: calc(33.33% - 20px); 
+   }
 }
