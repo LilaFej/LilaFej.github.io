@@ -171,6 +171,10 @@
     border: 1px solid #113680;
     width: 40px;
     height: 40px;
+    margin-left: 10px;
     text-align: center;
     cursor: pointer;
+ }
+ page-number span:hover{
+    background: #113680;
  }
