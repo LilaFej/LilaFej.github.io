@@ -94,15 +94,13 @@ p{
 
 .footer{
    background: #113680;
-   color: #8a8a8a;
+   color: #fff;
    font-size: 14px;
    padding: 60px 0 20 px;
 }
-footer-col-1 img{
-   width: 130px;
-}
-footer p{
-   color:#fff;
+.footer img {
+   width: 160px; 
+   height: auto; 
 }
 footer h3{
    color: #fff;
