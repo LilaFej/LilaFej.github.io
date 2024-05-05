@@ -92,12 +92,16 @@ p{
 
 /*---------footer----------*/
 
-footer{
+.footer{
    background: #13274F;
    color: #8a8a8a;
-   font-size: 16px;
+   font-size: 14px;
    padding: 60px 0 20 px;
 }
 footer-col-1 img{
+   width: 200px;
 
+}
+footer p{
+   color: #8a8a8a;
 }
