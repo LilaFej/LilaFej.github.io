@@ -32,6 +32,9 @@ nav ul li{
    display: inline-block;
    margin-right: 20px;
 }
+.menu-icon{
+   width: 28px;
+}
 a{
    text-decoration: none;
    color: black;
@@ -101,8 +104,12 @@ p{
 .footer img {
    width: 160px; 
    height: auto; 
+   margin-bottom: 20px;
 }
 footer h3{
    color: #fff;
    margin-bottom: 20px;
+}
+ul{
+   list-style-type: none;
 }
