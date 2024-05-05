@@ -93,15 +93,18 @@ p{
 /*---------footer----------*/
 
 .footer{
-   background: #13274F;
+   background: #113680;
    color: #8a8a8a;
    font-size: 14px;
    padding: 60px 0 20 px;
 }
 footer-col-1 img{
-   width: 200px;
-
+   width: 130px;
 }
 footer p{
-   color: #8a8a8a;
+   color:#fff;
+}
+footer h3{
+   color: #fff;
+   margin-bottom: 20px;
 }
