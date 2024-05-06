@@ -2,143 +2,160 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- .header {
+}
+
+.header {
     background: radial-gradient(#F0F8FF, #0047AB);
- }
- .header .row {
+}
+
+.header .row {
     margin-top: 70px;
- }
- .logo img {
+}
+
+.logo img {
     width: 125px;
- }
- body {
+}
+
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
- .navbar {
+}
+
+.navbar {
     display: grid;
-    grid-template-columns: 1fr auto; 
+    grid-template-columns: 1fr auto;
     align-items: center;
     padding: 20px;
- }
- nav {
+}
+
+nav {
     text-align: right;
- }
- nav ul {
+}
+
+nav ul {
     list-style-type: none;
- }
- nav ul li {
+}
+
+nav ul li {
     display: inline-block;
     margin-right: 20px;
- }
- .menu-icon {
+}
+
+.menu-icon {
     width: 28px;
     margin-left: 20px;
     display: none;
- }
- @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
     .navbar {
-       grid-template-columns: 1fr; /* On smaller screens, switch to one column */
+        grid-template-columns: 1fr; /* On smaller screens, switch to one column */
     }
+
     nav ul {
-       display: none; /* Hide the nav items by default */
-       position: absolute;
-       left: 0;
-       top: 70px;
-       background: #113680;
-       width: 100%;
-       overflow: hidden;
-       transition: max-height 0.7s;
+        display: none; /* Hide the nav items by default */
+        position: absolute;
+        left: 0;
+        top: 70px;
+        background: #113680;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.7s;
     }
+
     nav ul li {
-       display: block;
-       margin-top: 10px;
-       margin-bottom: 10px;
-       margin-right: 50px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px;
     }
+
     nav ul li a {
-       color: #fff;
+        color: #fff;
     }
+
     .menu-icon {
-       display: block;
-       cursor: pointer;
+        display: block;
+        cursor: pointer;
     }
- }
- a {
+}
+
+a {
     text-decoration: none;
     color: black;
- }
- p {
+}
+
+p {
     color: black;
- }
- .container {
+}
+
+.container {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
- }
- .row {
+}
+
+.row {
     display: grid; /* Change to grid layout */
     grid-template-columns: 1fr; /* Single column by default */
     gap: 20px;
- }
- .col-2 {
+}
+
+.col-2 {
     min-width: 300px;
- }
- .col-2 h1 {
+}
+
+.col-2 h1 {
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
- }
- 
- .col-2 img {
+}
+
+.col-2 img {
     max-width: 100%;
     padding: 50px 0;
- }
- 
- .footer{
+}
+
+.footer {
     background: #113680;
     color: #fff;
     font-size: 14px;
     padding: 60px 0 20px;
- }
- .footer img {
-    width: 160px; 
-    height: auto; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    width: 160px;
+    height: auto;
     margin-bottom: 20px;
- }
- footer h3{
+}
+
+footer h3 {
     color: #fff;
     margin-bottom: 20px;
- }
- ul{
+}
+
+ul {
     list-style-type: none;
- }
- .footer-col-1,
- .footer-col-2,
- .footer-col-3 {
-    flex-basis: 100%;
-    margin-bottom: 30px; 
- }
- @media only screen and (max-width: 600px){
-    .row{
-       text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
     }
-    .col-2, .col-3{
-       flex-basis: 100%;
+
+    .col-2,
+    .col-3 {
+        flex-basis: 100%;
     }
- }
- @media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 768px) {
     .footer {
-       display: flex;
-       justify-content: space-around; 
-       align-items: flex-start; 
-       flex-wrap: wrap; 
+        grid-template-columns: repeat(3, 1fr);
     }
- 
-    .footer-col-1,
-    .footer-col-2,
-    .footer-col-3 {
-       flex-basis: calc(33.33% - 20px); 
-    }
- }
+}
