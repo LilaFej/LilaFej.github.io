@@ -146,10 +146,23 @@
     outline: none;
  }
  #LoginBox{
-    left: -400px;
+    left: -600px;
  }
  #RegBox{
     left: 0;
+ }
+ form a{
+    font-size: 30px;
+ }
+
+ #Indicator{
+    width: 100px;
+    border: none;
+    background-color: #113680;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+
  }
  /*---------footer----------*/
  
