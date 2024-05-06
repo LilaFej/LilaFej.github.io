@@ -163,6 +163,7 @@
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
+    transition: transform 0.7s;
 
  }
  /*---------footer----------*/
