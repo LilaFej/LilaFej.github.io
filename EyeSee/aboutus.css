@@ -48,11 +48,11 @@ nav ul li {
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        grid-template-columns: 1fr; /* On smaller screens, switch to one column */
+        grid-template-columns: 1fr;  
     }
 
     nav ul {
-        display: none; /* Hide the nav items by default */
+        display: none; 
         position: absolute;
         left: 0;
         top: 70px;
@@ -87,7 +87,35 @@ a {
 p {
     color: black;
 }
-
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image .col-2 {
+    max-width: 100%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .image {
+      justify-content: center;
+    }
+  }
+  
 .container {
     max-width: 1300px;
     margin: auto;
@@ -96,9 +124,12 @@ p {
 }
 
 .row {
-    display: grid; /* Change to grid layout */
-    grid-template-columns: 1fr; /* Single column by default */
+    display: grid; 
+    grid-template-columns: 1fr; 
     gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .col-2 {
