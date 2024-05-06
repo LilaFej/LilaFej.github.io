@@ -144,7 +144,12 @@
  }
  form .button:focus{
     outline: none;
-
+ }
+ #LoginBox{
+    left: -400px;
+ }
+ #RegBox{
+    left: 0;
  }
  /*---------footer----------*/
  
