@@ -104,8 +104,8 @@
  }
  .login-container{
     background-color: #fff;
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 600px;
     position: relative;
     text-align: center;
     padding: 20px 0;
@@ -124,7 +124,7 @@
     display: inline-block;
  }
  .login-container form{
-    max-width: 400px;
+    max-width: 600px;
     padding: 0 20px;
     position: absolute;
     top: 130px;
@@ -144,7 +144,7 @@
  }
  form .button:focus{
     outline: none;
-    
+
  }
  /*---------footer----------*/
  
