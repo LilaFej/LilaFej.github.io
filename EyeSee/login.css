@@ -111,6 +111,7 @@
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2);
+    overflow: hidden;
  }
  .login-container span{
     font-weight: bold;
