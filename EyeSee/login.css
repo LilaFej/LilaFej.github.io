@@ -173,6 +173,8 @@
     }
     .col-2 {
         flex-basis: 100%;
+        min-width: auto;
+        text-align: center;
     }
     .col-2 img{
         max-width: 100%; 
