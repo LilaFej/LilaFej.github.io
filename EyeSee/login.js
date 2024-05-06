@@ -8,6 +8,6 @@ function register(){
 }
 
 function logIn(){
-    regBox.style.transform = "translateX(600px)";
-    loginBox.style.transform = "translateX(600px)";
+    regBox.style.transform = "translateX(500px)";
+    loginBox.style.transform = "translateX(500px)";
 }
