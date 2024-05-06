@@ -174,12 +174,24 @@
     .col-2 {
         flex-basis: 100%;
     }
+    .col-2 img{
+        max-width: 100%; 
+        height: auto;
+    }
+   
     .login-container {
         width: 300px; 
         margin: auto; 
         position: relative;
         top: 50%; 
         transform: translateY(-50%); 
+    }
+    .login-container form {
+        max-width: 100%; 
+    }
+    .login-container form .button {
+        width: calc(100% - 20px); 
+        margin: 10px auto; 
     }
 }
  /*---------footer----------*/
