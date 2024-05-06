@@ -175,9 +175,11 @@
         flex-basis: 100%;
     }
     .login-container {
-        width: 90%;
-        height: auto;
-        top: 10px;
+        width: 300px; 
+        margin: auto; 
+        position: relative;
+        top: 50%; 
+        transform: translateY(-50%); 
     }
 }
  /*---------footer----------*/
