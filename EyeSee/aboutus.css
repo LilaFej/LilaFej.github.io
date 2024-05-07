@@ -101,7 +101,9 @@ p {
     display: flex;
     justify-content: flex-end;
   }
-  
+  .grid-item image img{
+    size: 500px;
+  }
   .image .col-2 {
     max-width: 100%;
   }
