@@ -71,15 +71,24 @@ p{
 }
 /* Your existing CSS goes here */
 
+/* Your existing CSS goes here */
+
 .login-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px 0;
 }
 
+.login-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .col-2 {
-    width: 50%; 
+    width: 50%;
 }
 
 .col-2 img {
@@ -87,9 +96,12 @@ p{
     height: auto;
     display: block;
     margin: 0 auto;
-    max-height: 300px;
+    max-height: 500px;
 }
-
+.login-container{
+    background: radial-gradient(#F0F8FF,#0047AB);
+    padding: 50px;
+ }
 .login-form {
     background-color: #87ceeb;
     padding: 40px;
@@ -118,7 +130,7 @@ p{
 }
 
 .btn {
-    background-color: #333;
+    background-color: #13274F;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -127,14 +139,14 @@ p{
 }
 
 .btn:hover {
-    background-color: #555;
+    background-color: #0047AB;
 }
 
 .register-link {
     margin-top: 10px;
 }
 
-.footer{
+.footer {
     background: #113680;
     color: #fff;
     font-size: 14px;
@@ -147,12 +159,12 @@ p{
     margin-bottom: 20px;
 }
 
-footer h3{
+footer h3 {
     color: #fff;
     margin-bottom: 20px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
@@ -163,11 +175,11 @@ ul{
     margin-bottom: 30px; 
 }
 
-@media only screen and (max-width: 600px){
-    .row{
+@media only screen and (max-width: 600px) {
+    .row {
         text-align: center;
     }
-    .col-2, .col-3{
+    .col-2, .col-3 {
         flex-basis: 100%;
     }
 }
