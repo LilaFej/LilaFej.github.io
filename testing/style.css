@@ -75,15 +75,16 @@ p{
     align-items: center;
     padding: 50px 0;
 }
-.col-2 img{
-   
-        max-width: 100%; 
-        height: auto;
-    
+.col-2 img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    max-height: 300px; 
 }
 
 .login-form {
-    background-color: #fff;
+    background-color: #87ceeb;
     padding: 40px;
     border-radius: 10px;
     width: 40%;
