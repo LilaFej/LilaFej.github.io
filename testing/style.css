@@ -69,12 +69,15 @@ a{
 p{
    color: black;
 }
+/* Your existing CSS goes here */
+
 .login-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 0;
 }
+
 .col-2 {
     width: 50%; 
 }
@@ -86,6 +89,7 @@ p{
     margin: 0 auto;
     max-height: 300px;
 }
+
 .login-form {
     background-color: #87ceeb;
     padding: 40px;
@@ -129,49 +133,56 @@ p{
 .register-link {
     margin-top: 10px;
 }
+
 .footer{
-   background: #113680;
-   color: #fff;
-   font-size: 14px;
-   padding: 60px 0 20px;
+    background: #113680;
+    color: #fff;
+    font-size: 14px;
+    padding: 60px 0 20px;
 }
+
 .footer img {
-   width: 160px; 
-   height: auto; 
-   margin-bottom: 20px;
+    width: 160px; 
+    height: auto; 
+    margin-bottom: 20px;
 }
+
 footer h3{
-   color: #fff;
-   margin-bottom: 20px;
+    color: #fff;
+    margin-bottom: 20px;
 }
+
 ul{
-   list-style-type: none;
+    list-style-type: none;
 }
+
 .footer-col-1,
 .footer-col-2,
 .footer-col-3 {
-   flex-basis: 100%;
-   margin-bottom: 30px; 
+    flex-basis: 100%;
+    margin-bottom: 30px; 
 }
-@media only screen and (max-width: 600px){
-   .row{
-      text-align: center;
-   }
-   .col-2, .col-3{
-      flex-basis: 100%;
-   }
-}
-@media only screen and (min-width: 768px) {
-   .footer {
-      display: flex;
-      justify-content: space-around; 
-      align-items: flex-start; 
-      flex-wrap: wrap; 
-   }
 
-   .footer-col-1,
-   .footer-col-2,
-   .footer-col-3 {
-      flex-basis: calc(33.33% - 20px); 
-   }
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3{
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-around; 
+        align-items: flex-start; 
+        flex-wrap: wrap; 
+    }
+
+    .footer-col-1,
+    .footer-col-2,
+    .footer-col-3 {
+        flex-basis: calc(33.33% - 20px); 
+    }
 }
