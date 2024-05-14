@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LogIn - EyeSEE</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    
+    <div class="header">
+
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="/EyeSee/Images-Web/logo.png" alt="logo for EyeSEE"></a>
+    
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </nav>
+            <img src="/EyeSee/Images-Web/Menu_icon.png" class="menu-icon" onclick="showHideMenu()" alt="menu icon for navigation" >
+        </div>
+       
+    </div>
+   </div>
+  
+<div class="login-container">
+     <div class="col-2">
+                <img src="/EyeSee/Images-Web/login.png" alt="Model with sunglasses">
+            </div>
+    <form action="#" method="POST" class="login-form">
+        <h2>Login</h2>
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <p class="register-link">Don't have an account? <a href="register.html">Register here</a></p>
+    </form>
+</div>
+<!-- footer -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="/EyeSee/Images-Web/logo_white.png" alt="EyeSEE logo">
+            </div>
+            <div class="footer-col-2">
+                <h3>Connect</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>X</li>
+                    <li>SnapChat</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Ratapihantie  13, Helsinki,00500</li>
+                    <li>Phone: 555-555-5555</li>
+                    <li>Email: EyeSEE@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="/EyeSee/index.js"></script>
+
+</body> 
+</html>
