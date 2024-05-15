@@ -35,40 +35,23 @@
 
 
 <!-- LogIN-section 2 -->
-<div class="login-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                <img src="/EyeSee/Images-Web/login.png" alt="Model with sunglasses">
-            </div>
-
-            <div class="col-2">
-                <div class="login-container">
-                    <div class="login-button">
-                        <span onclick="logIn()">Login</span>
-                        <span onclick="register()">Register</span>
-                        <hr id="Indicator" >
-                    </div>
-
-                    <form id="LoginBox"> 
-                        <input type="text" placeholder="Username"/>
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="button">Login</button>
-                        <a href="">Forgot password</a>
-                    </form>
-
-                    <form id="RegBox"> 
-                        <input type="text" placeholder="Username"/>
-                        <input type="email" placeholder="Email"/>
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="button">Register</button>
-                    </form>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
+<div class="login-container">
+    <div class="col-2">
+               <img src="/EyeSee/Images-Web/login.png" alt="Model with sunglasses">
+           </div>
+   <form action="#" method="POST" class="login-form">
+       <h2>Login</h2>
+       <div class="input-group">
+           <label for="username">Username</label>
+           <input type="text" id="username" name="username" required>
+       </div>
+       <div class="input-group">
+           <label for="password">Password</label>
+           <input type="password" id="password" name="password" required>
+       </div>
+       <button type="submit" class="btn">Login</button>
+       <p class="register-link">Don't have an account? <a href="register.html">Register here</a></p>
+   </form>
 </div>
 
  
