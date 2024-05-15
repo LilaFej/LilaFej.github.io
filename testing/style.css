@@ -209,3 +209,11 @@ ul {
         flex-basis: calc(33.33% - 20px); 
     }
 }
+@media only screen and (min-width: 1024px) 
+    .footer {
+        display: flex;
+        justify-content: space-around; 
+        align-items: flex-start; 
+        flex-wrap: wrap; 
+    }
+}
